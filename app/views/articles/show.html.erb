@@ -1,0 +1,8 @@
+<%= @article.title %><br><br>
+<%= @article.text %>
+<br><br>
+
+I think this article is about <%= @article.tags %> and score it <%= @article.score %>
+
+<br><br>
+<%= link_to "Rescore", score_article_url(@article) %>
